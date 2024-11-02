@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalaciones o Logros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffb3c6; /* Color de fondo rosado */
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .nav-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #45a049;
+        }
+        main {
+            max-width: 800px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2><img src="C:\Users\nissy\Desktop\pag_web\Logo.jpg" width="200" height="200" alt="Logo"></h2>
+        <h1>Instalaciones o Logros</h1>
+    </header>
+    <nav>
+        <button class="nav-button" onclick="location.href='Menú.html'">Menú</button>
+        <button class="nav-button" onclick="location.href='oferta_academica.html'">Oferta Académica</button>
+        <button class="nav-button" onclick="location.href='quienes_somos.html'">¿Quiénes Somos?</button>
+        <button class="nav-button" onclick="location.href='contacto.html'">Contáctanos</button>
+        <button class="nav-button" onclick="location.href='promo.html'">Promo</button>
+    </nav>
+    <main>
+        <p>Detalles sobre nuestras instalaciones y logros.</p>
+    </main>
+    
+    <h2>Instalaciones</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+        <div style="position: relative; width: 300px; height: 200px; cursor: pointer;" onclick="this.lastElementChild.style.display = this.lastElementChild.style.display === 'block' ? 'none' : 'block'">
+            <img src="C:\Users\nissy\Desktop\pag_web\2eac9f1c-cf77-4ee6-87ca-0b36dcdb6dbb.jpg" alt="Descripción 1" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center; padding: 5px; display: none;">Laboratorio 1</div>
+        </div>
+
+        <div style="position: relative; width: 300px; height: 200px; cursor: pointer;" onclick="this.lastElementChild.style.display = this.lastElementChild.style.display === 'block' ? 'none' : 'block'">
+            <img src="C:\Users\nissy\Desktop\pag_web\4b80fda8-2cfd-4f15-a196-2e92743d31c4 - copia.jpg" alt="Descripción 2" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center; padding: 5px; display: none;">Laboratorio 2</div>
+        </div>
+
+        <div style="position: relative; width: 300px; height: 200px; cursor: pointer;" onclick="this.lastElementChild.style.display = this.lastElementChild.style.display === 'block' ? 'none' : 'block'">
+            <img src="C:\Users\nissy\Desktop\pag_web\4b80fda8-2cfd-4f15-a196-2e92743d31c4.jpg" alt="Descripción 3" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center; padding: 5px; display: none;">Laboratorio 3</div>
+        </div>
+
+        <div style="position: relative; width: 300px; height: 200px; cursor: pointer;" onclick="this.lastElementChild.style.display = this.lastElementChild.style.display === 'block' ? 'none' : 'block'">
+            <img src="C:\Users\nissy\Desktop\pag_web\8e6266a3-6eae-4c34-aa87-887256f8622b.jpg" alt="Descripción 4" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center; padding: 5px; display: none;">Laboratorio 4</div>
+        </div>
+
+        <div style="position: relative; width: 300px; height: 200px; cursor: pointer;" onclick="this.lastElementChild.style.display = this.lastElementChild.style.display === 'block' ? 'none' : 'block'">
+            <img src="C:\Users\nissy\Desktop\pag_web\276bf30d-9f04-405d-af6b-2ac8f2f372b2.jpg" alt="Descripción 5" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center; padding: 5px; display: none;">Laboratorio 5</div>
+        </div>
+    </div>
+
+    <h2>Videos</h2>
+    <div>
+        <h3>BTP INFORMATICA</h3>
+        <video width="600" controls>
+            <source src="C:\Users\nissy\Desktop\pag_web\WhatsApp Video 2024-10-31 at 12.06.50 AM.mp4" type="video/mp4">
+            <source src="C:\Users\nissy\Desktop\pag_web\WhatsApp Video 2024-10-31 at 12.45.13 AM (1).mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <div>
+        <h3>FRANKLIN DELANO ROOSEVELT</h3>
+        <video width="600" controls>
+            <source src="C:\Users\nissy\Desktop\pag_web\videode fdr.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+</body>
+</html>
