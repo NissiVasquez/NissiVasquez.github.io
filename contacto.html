@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4e1e1; /* Light pink background */
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .nav-button {
+            background-color: #d5006d; /* Pink button color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #c4005b; /* Darker pink on hover */
+        }
+        main {
+            max-width: 800px;
+            text-align: center;
+            padding: 20px;
+        }
+        .contact-section {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+        .social-links {
+            margin: 20px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #d5006d; /* Pink color for links */
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2><img src="Logo.jpg" width="200" height="200" alt="Logo"></h2>
+        <h1>Contáctanos</h1>
+    </header>
+    <nav>
+        <button class="nav-button" onclick="location.href='Menú.html'">Menú</button>
+        <button class="nav-button" onclick="location.href='oferta_academica.html'">Oferta Académica</button>
+        <button class="nav-button" onclick="location.href='instalaciones.html'">Instalaciones o Logros</button>
+        <button class="nav-button" onclick="location.href='quienes_somos.html'">¿Quiénes Somos?</button>
+        <button class="nav-button" onclick="location.href='promo.html'">Promo</button>
+    </nav>
+    <main>
+        <p>Información de contacto y formulario.</p>
+    </main>
+    <div class="contact-section">
+        <h2>Contacto</h2>
+        <div class="social-links">
+            <h3>Síguenos en:</h3>
+            <a href="https://www.facebook.com/DepartamentoDeOrientacionFranklinD.Roosevelt" target="_blank">Facebook</a>
+            <a href="https://twitter.com/yourpage" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/yourpage" target="_blank">Instagram</a>
+        </div>
+        <div class="contact-info">
+            <p>Dirección: CA-13, El Porvenir, Puerto Cortes, Cortés</p>
+            <p>Teléfono: +504 1234 5678</p>
+            <p>Email: <a href="mailto:FranklinDelanoRoosevelt@gmail.com">FranklinDelanoRoosevelt@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
